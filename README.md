@@ -1,4 +1,4 @@
-# sigma
+# algafood ui
 
 ## Project setup
 ```
