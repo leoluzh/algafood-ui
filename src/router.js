@@ -12,6 +12,64 @@ export default new Router({
 			component: Dashboard
 		},
 		{
+			path: '/cidade' , 
+			name: 'cidade' , 
+			component: () => import('./pages/Cidade.vue')  
+		},
+		{ 
+			path: '/cozinha' , 
+			name: 'cozinha' , 
+			component: () => import('./pages/Cozinha.vue') 
+		},
+		{ 
+			path: '/endereco' , 
+			name: 'endereco' , 
+			component: () => import('./pages/Endereco.vue')  
+		},
+		{ 
+			path: '/estado' , 
+			name: 'estado' , 
+			component: () => import('./pages/Estado.vue') 
+		},
+		{ 
+			path: '/formapagamento' , 
+			name: 'formapagamento' , 
+			component: () => import('./pages/FormaPagamento.vue') 
+		},
+		{ 
+			path: '/grupo' , 
+			name: 'grupo' , 
+			component: () => import('./pages/Grupo.vue') 
+		},
+		{ 
+			path: '/itempedido' , 
+			name: 'itempedido' , 
+			component: () => import('./pages/ItemPedido.vue') 
+		},
+		{ 
+			path: '/permissao' , 
+			name: 'permissao' , 
+			component: () => import('./pages/Permissao.vue') 
+		},
+		{ 
+			path: '/produto' , 
+			name: 'produto' , 
+			component: () => import('./pages/Produto.vue') 
+		},
+		{ 
+			path: '/restaurante' , 
+			name: 'restaurante' , 
+			component: () => import('./pages/Restaurante.vue') 
+		},
+		{ 
+			path: '/usuario' , 
+			name: 'usuario' , 
+			component: () => import('./pages/Usuario.vue') 
+		},
+
+
+
+		{
 			path: '/formlayout',
 			name: 'formlayout',
 			component: () => import('./components/FormLayoutDemo.vue')

@@ -42,6 +42,21 @@ export default {
             mobileMenuActive: false,
             menu : [
                 {label: 'Dashboard', icon: 'pi pi-fw pi-home', to: '/'},
+                {   label: 'Gerenciar', icon: 'pi pi-fw pi-home', 
+                    items: [
+						{label: 'Cidade', icon: 'pi pi-fw pi-id-card', to: '/cidade'},
+						{label: 'Cozinha', icon: 'pi pi-fw pi-id-card', to: '/cozinha'},
+						{label: 'Endereço', icon: 'pi pi-fw pi-id-card', to: '/endereco'},
+						{label: 'Estado', icon: 'pi pi-fw pi-id-card', to: '/estado'},
+						{label: 'Forma de Pagamento', icon: 'pi pi-fw pi-id-card', to: '/formapagamento'},
+						{label: 'Grupo', icon: 'pi pi-fw pi-id-card', to: '/grupo'},
+						{label: 'Item do Pedido', icon: 'pi pi-fw pi-id-card', to: '/itempedido'},
+						{label: 'Permissão', icon: 'pi pi-fw pi-id-card', to: '/permissao'},
+						{label: 'Produto', icon: 'pi pi-fw pi-id-card', to: '/produto'},
+						{label: 'Restaurante', icon: 'pi pi-fw pi-id-card', to: '/restaurante'},
+                        {label: 'Usuário', icon: 'pi pi-fw pi-id-card', to: '/usuario'},
+                    ]
+                },
 				{
 					label: 'UI Kit', icon: 'pi pi-fw pi-sitemap',
 					items: [
